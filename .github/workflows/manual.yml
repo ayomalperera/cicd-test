@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftps://waws-prod-dm1-191.ftp.azurewebsites.windows.net/site/wwwroot
         username: fuso-cicd-1\$fuso-cicd-1
-        password: ${{ secrets.ftp_passworfuso-cicd-1\$fuso-cicd-1d }}
+        password: ${{ secrets.xxxx }}
