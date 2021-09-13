@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftps://waws-prod-dm1-191.ftp.azurewebsites.windows.net/site/wwwroot
         username: Git-acion\$Git-acion
-        password: ${{ secrets.GA_FTP_PASSWORD }}
+        password: ${{ secrets.AY_FTP_PASSWORD }}
