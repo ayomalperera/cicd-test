@@ -1,0 +1,16 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: ftps://waws-prod-dm1-191.ftp.azurewebsites.windows.net/site/wwwroot
+        username: fuso-cicd-1\$fuso-cicd-1
+        password: ${{ secrets.ftp_passworfuso-cicd-1\$fuso-cicd-1d }}
